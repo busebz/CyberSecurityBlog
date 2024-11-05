@@ -1,0 +1,23 @@
+.searchbar{
+    display:flex;
+    align-items: center;
+    width:30%;
+}
+
+.input{
+    width:60%;
+    height:23px;
+}
+
+.searchbar a{
+    margin-left:30px;
+    background-color: rgb(173, 109, 109);
+    color:white;
+    padding:4px 20px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.searchbar a:hover{
+    background-color: rgb(165, 137, 137);
+}

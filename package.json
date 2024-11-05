@@ -1,0 +1,36 @@
+{
+  "name": "softwaredesignapps",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "proxy":"https://blogloginapi.onrender.com",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "crypto-browserify": "^3.12.0",
+    "mongo-loader": "^2.1.0",
+    "mongodb": "^5.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.1",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build"
+ 
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": [
+    ">0.2%",
+   "not dead",
+   "not op_mini all"
+ ]
+}

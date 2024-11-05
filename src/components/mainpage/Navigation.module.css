@@ -1,0 +1,31 @@
+.navigation {
+  background-color: transparent;
+  box-sizing: border-box;
+  box-shadow: none;
+  width: 28%;
+  
+}
+
+.list{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  list-style-type: none;
+}
+
+.list li {
+  text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+  transition: text-decoration-color 1s;
+}
+.list li a{
+  text-decoration: none;
+  color:white;
+}
+
+.list li:hover {
+  text-decoration-color: rgb(255, 255, 255);
+}
+
+.list li .active {
+  text-decoration-line: underline;
+}

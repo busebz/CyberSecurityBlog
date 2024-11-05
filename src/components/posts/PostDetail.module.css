@@ -1,0 +1,47 @@
+.post {
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: rgb(177, 184, 184);
+  margin: 30px 10px;
+  padding: 3px 15px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category,
+.tag {
+  display: inline-block;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: bisque;
+}
+
+.tag {
+  margin: 0px 5px;
+}
+
+.buttons button{
+  display: inline-block;
+  margin: 0px 5px;
+  padding: 4px 10px;
+  color: white;
+  text-decoration: none;
+  border:none;
+  cursor:pointer;
+}
+
+.buttons button:hover{
+  background-color: rgb(154, 154, 154);
+}
+
+.updatebtn {
+  background-color: rgb(133, 160, 108);
+}
+
+.deletebtn {
+  background-color: rgb(214, 77, 77);
+}

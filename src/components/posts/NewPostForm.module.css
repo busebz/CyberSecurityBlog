@@ -1,0 +1,52 @@
+.form {
+    box-sizing: border-box;
+    width: 50%;
+    margin: 50px auto;
+    background-color: rgb(193, 193, 158);
+    padding: 10px 30px;
+  }
+
+  .input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .input input{
+    width:80%;
+    height:25px;
+  }
+  
+  .input p {
+    width: 30%;
+  }
+  
+  .input input:hover {
+    border-color: rgb(81, 147, 75);
+  }
+
+  .form h4 {
+    margin-bottom: 30px;
+    text-decoration: underline;
+    font-size: xx-large;
+  }
+
+  .select{
+    width:80%;
+    height:30px;
+  }
+
+  .button {
+    background-color: rgb(86, 147, 79);
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    cursor: pointer;
+    border: none;
+  }
+  .button:hover {
+    background-color: rgb(110, 151, 106);
+  }
+  
